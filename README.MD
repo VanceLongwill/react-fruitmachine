@@ -16,9 +16,10 @@ You do not need to do any styling if you don't want to, three boxes with the res
 Install packages and build the code using
 
 `> npm install`
+
 `> npm run build`
 
-From then on you can use [https://github.com/FormidableLabs/webpack-dashboard](webpack-dasboard) to watchyour files and run the node.js server
+From then on you can use [webpack-dasboard](https://github.com/FormidableLabs/webpack-dashboard) to watchyour files and run the node.js server
 
 `> npm start`
 
