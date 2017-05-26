@@ -27,3 +27,4 @@ You should then be able to navigate to [http://localhost:3000](http://localhost:
 
 There is one react component created for you in [src/js/app/index.js](https://bitbucket.org/whenyoumove/reactcodingtest/src/8a05ec9a9e086e75a50f9bd5052d50b342ae847f/src/js/app/?at=master)
 
+Once complete, make a pull request from your fork to allow us to review your solution.
