@@ -1,5 +1,7 @@
 # When You Move Coding Test
 
+## We are looking to determine how you approach creating a coded solution from scratch. Please treat this as if you are creating production ready code. We expect this to reflect how you would deliver to a client, so take that into account when creating your solution.
+
 The aim of this short exercise is to simulate a fruit machine game in React. A fruit machine consists of three wheels, each wheel containing four colours
 
 * Red
