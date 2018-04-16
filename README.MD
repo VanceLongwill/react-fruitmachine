@@ -1,4 +1,4 @@
-# When You Move Coding Test
+# When You Move Technical Exercise
 
 ## We are looking to determine how you approach creating a coded solution from scratch. Please treat this as if you are creating production ready code. We expect this to reflect how you would deliver to a client, so take that into account when creating your solution.
 
