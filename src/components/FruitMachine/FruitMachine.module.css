@@ -1,0 +1,27 @@
+.stage {
+  margin: 150px auto;
+  width: 600px;
+  height: 400px;
+  perspective: 800;
+}
+.rotate {
+  margin: 0 auto;
+  width: 600px;
+  height: 400px;
+  transform-style: preserve-3d;
+}
+
+.wheelContainer {
+  margin-top: 100px;
+  /*
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  grid-template-rows: auto;
+  grid-template-areas: "wheel wheel wheel";
+  */
+}

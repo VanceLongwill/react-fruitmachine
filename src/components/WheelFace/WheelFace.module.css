@@ -1,0 +1,28 @@
+.face {
+  position: absolute;
+  left: 250px;
+  width: 100px;
+  height: 100px;
+  opacity: 0.7;
+  color: rgba(0,0,0,0.9);
+  border-radius: 10px;
+}
+
+.inner {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 28px;
+}
+
+/*
+.Animate {
+  animation: spinWheel 2s ease infinite;
+}
+
+@keyframes spinWheel {
+  100% {
+    transform: translateY(-400%);
+  }
+}
+*/
