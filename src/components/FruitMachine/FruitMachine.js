@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 
 import Wheel from '../Wheel'
@@ -17,20 +17,18 @@ const WheelsContainer = styled.div`
 `
 
 export function FruitMachine(props) {
-  const [isPaused, setPause] = useState(true)
+  const { wheels, spinWheel } = props
 
   return (
     <div>
-      <button onClick={() => {
-        setPause(!isPaused)
-      }}>
+      <button onClick={spinWheel}>
         Click me
       </button>
       <FruitMachineContainer>
         <WheelsContainer>
-          <Wheel isPaused={isPaused} prevIndex={0} nextIndex={11} delay={600}/>
-          <Wheel isPaused={isPaused} prevIndex={0} nextIndex={1} delay={300}/>
-          <Wheel isPaused={isPaused} prevIndex={0} nextIndex={2} delay={0}/>
+          <Wheel prevIndex={wheels[0].prev} nextIndex={wheels[0].next} delay={600}/>
+          <Wheel prevIndex={wheels[1].prev} nextIndex={wheels[1].next} delay={300}/>
+          <Wheel prevIndex={wheels[2].prev} nextIndex={wheels[2].next} delay={0}/>
         </WheelsContainer>
       </FruitMachineContainer>
     </div>

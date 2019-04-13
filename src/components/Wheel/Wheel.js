@@ -21,19 +21,20 @@ const AnimatedWheel = styled.div`
   animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-name: ${p => p.animation};
-  animation-play-state: ${p => p.isPaused ? 'paused' : 'running'};
   animation-delay: -${p => !p.isPaused ? (p.delay || 0) : 0}ms;
 `
+// animation-play-state: ${p => p.isPaused ? 'paused' : 'running'};
 
 export function Wheel(props) {
+  console.log("WHEELPROPS", props)
   const { delay, isPaused, prevIndex, nextIndex } = props;
 
   const animation = keyframes`
     from {
-      transform: rotateX(${prevIndex ? getPosition(prevIndex) : prevIndex}deg)
+      transform: rotateX(${prevIndex !== 0 ? getPosition(prevIndex) : prevIndex}deg)
     }
     to {
-      transform: rotateX(${getPosition(nextIndex)}deg)
+      transform: rotateX(${nextIndex !== -1 ? getPosition(nextIndex) : 0}deg)
     }
   ` 
 
