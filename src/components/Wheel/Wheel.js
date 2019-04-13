@@ -11,14 +11,17 @@ const wheelAngle = 360 / WHEELFACES_PER_ROW
 const colors = ['red', 'green', 'blue', 'yellow']
 
 export function Wheel(props) {
+  const { delay, isPaused } = props;
+  const animationDelay = `-${0}ms`;
+
   const wheelFaces = []
   for (let i = 0; i < WHEELFACES_PER_ROW; i++) {
     wheelFaces.push(
-      <WheelFace rotateX={wheelAngle * i} radius={WHEEL_RADIUS} color="green" />
+      <WheelFace rotateX={wheelAngle * i} radius={WHEEL_RADIUS} color="green" text={i} />
     )
   }
 
-  return <div className={cx(styles.wheel)}>{wheelFaces}</div>
+  return <div style={{ animationDelay }} className={cx(styles.wheel, { [styles.pause]: isPaused })}>{wheelFaces}</div>
 
   //     <WheelFace color="red"/>
   //     <WheelFace color="blue"/>
