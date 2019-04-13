@@ -1,7 +1,8 @@
-import React from 'react'
+import styled from 'styled-components'
 
-import styles from './PageLayout.module.css'
-
-export function PageLayout(props) {
-  return <div className={styles.container}>{props.children}</div>
-}
+export const PageLayout = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+`

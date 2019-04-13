@@ -1,15 +1,31 @@
 import React from 'react'
+import styled from 'styled-components'
 
-import cx from 'classnames'
-import styles from './WheelFace.module.css'
+const Facet = styled.div`
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  color: rgba(0,0,0,0.9);
+  border-radius: 5px;
+  border: 10px solid black;
+  opacity: 0.9;
+  background-color: ${p => p.color};
+  transform: rotateX(${p => p.rotateX}deg)
+    translateZ(${p => p.radius}px);
+`
+
+const FacetText = styled.p`
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 28px;
+`
 
 export function WheelFace(props) {
-  const { color: backgroundColor, text, isActive, radius, rotateX } = props
-  const transform = `rotateX(${rotateX}deg) translateZ(${radius}px)`
+  const { color, text, isActive, radius, rotateX } = props
   return (
-    <div style={{ transform, backgroundColor }} className={cx(styles.face)}>
-      <p className={styles.inner}>{text}</p>
-    </div>
+    <Facet color={color} radius={radius} rotateX={rotateX}>
+      <FacetText>{text}</FacetText>
+    </Facet>
   )
-  // 
 }
