@@ -1,12 +1,10 @@
 .wheel {
-  margin: 0 auto;
   height: 110px;
-  width: 600px;
   transform-style: preserve-3d;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-name: x-spin;
-  animation-duration: 2s;
+  animation-duration: 5s;
 }
 
 @keyframes x-spin {
@@ -15,6 +13,7 @@
   100%  { transform: rotateX(360deg); }
 }
 
+/*
 .wheel > :nth-child(odd) {
   background-color: #995C7F;
 }
@@ -22,6 +21,7 @@
 .wheel > :nth-child(even) {
   background-color: #835A99;
 }
+*/
 
 /*
 .Wheel:first-child {

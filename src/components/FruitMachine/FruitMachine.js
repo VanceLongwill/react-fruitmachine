@@ -9,6 +9,8 @@ export function FruitMachine(props) {
     <div className={styles.stage}>
       <div className={styles.rotate}>
         <Wheel />
+        <Wheel />
+        <Wheel />
       </div>
     </div>
   )

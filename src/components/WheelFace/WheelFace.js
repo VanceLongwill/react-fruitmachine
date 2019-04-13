@@ -7,9 +7,9 @@ export function WheelFace(props) {
   const { color: backgroundColor, isActive, radius, rotateX } = props
   const transform = `rotateX(${rotateX}deg) translateZ(${radius}px)`
   return (
-    <div style={{ transform }} className={cx(styles.face)}>
+    <div style={{ transform, backgroundColor }} className={cx(styles.face)}>
       <p className={styles.inner}>0</p>
     </div>
   )
-  // style={{ backgroundColor }}>
+  // 
 }

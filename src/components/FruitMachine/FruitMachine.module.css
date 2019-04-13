@@ -1,14 +1,13 @@
 .stage {
-  margin: 150px auto;
-  width: 600px;
-  height: 400px;
-  perspective: 800;
+  margin-top: 250px;
+  perspective: 2000;
 }
 .rotate {
-  margin: 0 auto;
-  width: 600px;
-  height: 400px;
   transform-style: preserve-3d;
+  display: grid;
+  grid-template-columns: 120px 120px 120px;
+  grid-template-rows: auto;
+  grid-template-areas: "wheel wheel wheel";
 }
 
 .wheelContainer {
