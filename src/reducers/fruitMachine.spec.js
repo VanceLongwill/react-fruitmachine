@@ -1,9 +1,16 @@
-import fruitMachine, { defaultState } from './fruitMachine' 
-import { spinWheelRequest, spinWheelSuccess, losingSpin, winningSpin } from '../actions'
+import fruitMachine, { defaultState } from './fruitMachine'
+import {
+  spinWheelRequest,
+  spinWheelSuccess,
+  losingSpin,
+  winningSpin,
+} from '../actions'
 
 describe('fruitMachine reducer', () => {
   it('should return the default state', () => {
-    expect(fruitMachine(undefined, { type: 'some-action' })).toEqual(defaultState)
+    expect(fruitMachine(undefined, { type: 'some-action' })).toEqual(
+      defaultState
+    )
   })
   it('should set the isSpinning property on SPIN_WHEEL_REQUEST', () => {
     const state = fruitMachine(defaultState, spinWheelRequest())
@@ -11,14 +18,14 @@ describe('fruitMachine reducer', () => {
   })
 
   it('should set the next index correctly on SPIN_WHEEL_SUCCESS', () => {
-    const randoms = [ 3, 4, 5 ]
+    const randoms = [3, 4, 5]
     const state = fruitMachine(defaultState, spinWheelSuccess(randoms))
     randoms.forEach((rand, i) => {
       expect(state.wheels[i].prev).toBe(0)
       expect(state.wheels[i].next).toBe(rand)
     })
 
-    const nextRandoms = [ 7, 9, 3 ]
+    const nextRandoms = [7, 9, 3]
     const nextState = fruitMachine(state, spinWheelSuccess(nextRandoms))
     nextRandoms.forEach((rand, i) => {
       expect(nextState.wheels[i].prev).toBe(state.wheels[i].next)

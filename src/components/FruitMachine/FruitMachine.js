@@ -8,7 +8,7 @@ const FruitMachineContainer = styled.div`
   margin-top: 200px;
   perspective: 2000;
   &::after {
-    content: "";
+    content: '';
     position: absolute;
     bottom: -200px;
     left: -60px;
@@ -20,7 +20,7 @@ const FruitMachineContainer = styled.div`
     border-bottom: 200px solid rgba(239, 163, 19, 0.8);
     pointer-events: none;
     border-radius: 12px;
-    box-shadow: inset 0 10px 10px rgba(0,0,0,0.4);
+    box-shadow: inset 0 10px 10px rgba(0, 0, 0, 0.4);
   }
 `
 
@@ -29,7 +29,7 @@ const WheelsContainer = styled.div`
   display: grid;
   grid-template-columns: 120px 120px 120px;
   grid-template-rows: auto;
-  grid-template-areas: "wheel wheel wheel";
+  grid-template-areas: 'wheel wheel wheel';
 `
 
 const Layout = styled.div`
@@ -41,19 +41,27 @@ const Layout = styled.div`
 `
 
 export function FruitMachine(props) {
-  const { 
-    wheels, 
-    onSpin,
-    isSpinning,
-  } = props
+  const { wheels, onSpin, isSpinning } = props
 
   return (
     <Layout>
       <FruitMachineContainer>
         <WheelsContainer>
-          <Wheel prevIndex={wheels[0].prev} nextIndex={wheels[0].next} delay={600}/>
-          <Wheel prevIndex={wheels[1].prev} nextIndex={wheels[1].next} delay={300}/>
-          <Wheel prevIndex={wheels[2].prev} nextIndex={wheels[2].next} delay={0}/>
+          <Wheel
+            prevIndex={wheels[0].prev}
+            nextIndex={wheels[0].next}
+            delay={600}
+          />
+          <Wheel
+            prevIndex={wheels[1].prev}
+            nextIndex={wheels[1].next}
+            delay={300}
+          />
+          <Wheel
+            prevIndex={wheels[2].prev}
+            nextIndex={wheels[2].next}
+            delay={0}
+          />
         </WheelsContainer>
         <Lever onClick={onSpin} isSpinning={isSpinning} />
       </FruitMachineContainer>

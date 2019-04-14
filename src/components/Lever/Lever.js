@@ -25,18 +25,25 @@ const AnimatedLever = styled.div`
   margin-top: -160px;
   height: 200px;
   width: 200px;
-  #lever { /* the elements we want to animate are tagged with id="lever" in LeverSVG */
+  #lever {
+    /* the elements we want to animate are tagged with id="lever" in LeverSVG */
     cursor: grab;
     transform-origin: 50% 72%;
-    animation-iteration-count: 1; 
+    animation-iteration-count: 1;
     animation-timing-function: ease-out;
     animation-duration: 1s;
     animation-fill-mode: forwards;
-    animation-name: ${p => p.isSpinning ? leverAnimation : 'none'};
+    animation-name: ${p => (p.isSpinning ? leverAnimation : 'none')};
   }
 `
 
 export function Lever(props) {
   const { isSpinning, onClick } = props
-  return <AnimatedLever onClick={isSpinning ? null : onClick} isSpinning={isSpinning}><LeverSVG /></AnimatedLever>
+  return (
+    <AnimatedLever
+      onClick={isSpinning ? null : onClick}
+      isSpinning={isSpinning}>
+      <LeverSVG />
+    </AnimatedLever>
+  )
 }

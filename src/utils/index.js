@@ -16,4 +16,3 @@ export function getColorMatches(indices) {
 export function getRandom() {
   return Math.floor(Math.random() * WHEELFACES_PER_ROW)
 }
-

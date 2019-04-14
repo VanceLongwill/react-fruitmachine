@@ -5,12 +5,11 @@ const Facet = styled.div`
   position: absolute;
   height: 100px;
   width: 100px;
-  color: rgba(0,0,0,0.9);
+  color: rgba(0, 0, 0, 0.9);
   border-radius: 5px;
   border: 10px solid rgb(191, 191, 191);
   background-color: ${p => p.color};
-  transform: rotateX(${p => p.rotateX}deg)
-    translateZ(${p => p.radius}px);
+  transform: rotateX(${p => p.rotateX}deg) translateZ(${p => p.radius}px);
 `
 
 // const FacetText = styled.p`
@@ -22,7 +21,5 @@ const Facet = styled.div`
 
 export function WheelFace(props) {
   const { color, radius, rotateX } = props
-  return (
-    <Facet color={color} radius={radius} rotateX={rotateX} />
-  )
+  return <Facet color={color} radius={radius} rotateX={rotateX} />
 }

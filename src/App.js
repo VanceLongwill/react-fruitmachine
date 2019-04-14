@@ -17,27 +17,22 @@ const confettiConfig = {
   dragFriction: 0.1,
   duration: 3000,
   delay: 0,
-  width: "10px",
-  height: "10px",
-  colors: ["#a864fd", "#29cdff", "#78ff44", "#ff718d", "#fdff6a"]
+  width: '10px',
+  height: '10px',
+  colors: ['#a864fd', '#29cdff', '#78ff44', '#ff718d', '#fdff6a'],
 }
 
 export function App(props) {
-  const {
-    isSpinning,
-    wheels,
-    isWin,
-    results,
-    handleSpin,
-  } = props;
+  const { isSpinning, wheels, isWin, results, handleSpin } = props
   return (
     <PageLayout>
       <Heading />
-      <FruitMachine 
+      <FruitMachine
         isSpinning={isSpinning}
         wheels={wheels}
         isWin={isWin}
-        onSpin={handleSpin} />
+        onSpin={handleSpin}
+      />
       <SpinResult results={results} />
       <Confetti config={confettiConfig} active={isWin} />
     </PageLayout>
@@ -55,4 +50,7 @@ export function mapStateToProps(state) {
 
 const actionCreators = { handleSpin: spinWheelRequest }
 
-export default connect(mapStateToProps, actionCreators)(App)
+export default connect(
+  mapStateToProps,
+  actionCreators
+)(App)

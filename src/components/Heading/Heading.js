@@ -5,7 +5,7 @@ const HeadingContainer = styled.div`
   text-align: center;
 `
 const Title = styled.h1`
-  color: rgb(75, 198, 155)
+  color: rgb(75, 198, 155);
 `
 
 const Subtitle = styled.h2`

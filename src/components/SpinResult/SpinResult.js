@@ -1,5 +1,5 @@
 import React from 'react'
-import styled, { keyframes } from 'styled-components'
+import styled from 'styled-components'
 import { TransitionGroup, CSSTransition } from 'react-transition-group'
 
 import { COLORS } from '../../config/constants'
@@ -23,7 +23,7 @@ const StyledText = styled.p`
   background-color: white;
   box-shadow: 1px 1px 2px;
   color: ${p => {
-    switch(p.count) {
+    switch (p.count) {
       case 3:
         return COLORS[1].value
       case 2:
@@ -42,7 +42,7 @@ const StyledText = styled.p`
 `
 
 function getResultText(count, color) {
-  switch(count) {
+  switch (count) {
     case 3:
       return `Jackpot! You won with ${count} ${color} squares`
     case 2:
@@ -53,9 +53,13 @@ function getResultText(count, color) {
 }
 
 export function SpinResult(props) {
-  const { results } = props;
+  const { results } = props
   const notifications = results.map((result, i) => (
-    <CSSTransition key={result.key} exit={false} classNames="animate" timeout={1000}>
+    <CSSTransition
+      key={result.key}
+      exit={false}
+      classNames="animate"
+      timeout={1000}>
       <StyledText count={result.count}>
         {getResultText(result.count, result.color)}
       </StyledText>
@@ -63,9 +67,7 @@ export function SpinResult(props) {
   ))
   return (
     <ResultsContainer>
-      <TransitionGroup component={null}>
-        {notifications}
-      </TransitionGroup>
+      <TransitionGroup component={null}>{notifications}</TransitionGroup>
     </ResultsContainer>
   )
 }

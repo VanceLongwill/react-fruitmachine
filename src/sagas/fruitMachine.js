@@ -1,8 +1,8 @@
 import { put, delay, takeEvery } from 'redux-saga/effects'
 
-import { 
-  SPIN_WHEEL_REQUEST, 
-  SPIN_WHEEL_SUCCESS, 
+import {
+  SPIN_WHEEL_REQUEST,
+  SPIN_WHEEL_SUCCESS,
   spinWheelSuccess,
   winningSpin,
   losingSpin,
