@@ -5,7 +5,7 @@ import Wheel from '../Wheel'
 import Lever from '../Lever'
 
 const FruitMachineContainer = styled.div`
-  margin-top: 250px;
+  margin-top: 200px;
   perspective: 2000;
   &::after {
     content: "";
@@ -36,7 +36,7 @@ const Layout = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 600px;
+  height: 550px;
   width: 600px;
 `
 

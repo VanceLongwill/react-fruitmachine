@@ -23,6 +23,7 @@ const AnimatedLever = styled.div`
   height: 200px;
   width: 200px;
   #lever { /* the elements we want to animate are tagged with id="lever" in LeverSVG */
+    cursor: grab;
     transform-origin: 50% 72%;
     animation-iteration-count: 1; 
     animation-timing-function: ease;
@@ -34,5 +35,5 @@ const AnimatedLever = styled.div`
 
 export function Lever(props) {
   const { isSpinning, onClick } = props
-  return <AnimatedLever onClick={onClick} isSpinning={isSpinning}><LeverSVG /></AnimatedLever>
+  return <AnimatedLever onClick={isSpinning ? null : onClick} isSpinning={isSpinning}><LeverSVG /></AnimatedLever>
 }

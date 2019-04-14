@@ -1,5 +1,6 @@
 // @flow
 import { SPIN_WHEEL_REQUEST, SPIN_WHEEL_SUCCESS, WINNING_SPIN, LOSING_SPIN, type Actions } from '../actions'
+import uuid from 'uuid'
 import type { Wheel } from '../types/fruitMachine'
 
 type State = {
@@ -8,7 +9,7 @@ type State = {
   +isWin: boolean,
   +matchCount: number,
   +matchColor: string,
-  +results: Array<{ color: string, count: number }>,
+  +results: Array<{ key: string, color: string, count: number }>,
 }
 
 export const defaultState: State = {
@@ -54,7 +55,7 @@ function fruitMachine(state: State = defaultState, action: Actions) {
         isSpinning: false,
         isWin: true,
         results: [
-          { color: action.payload.color, count: action.payload.matchCount },
+          { key: uuid(), color: action.payload.color, count: action.payload.matchCount },
           ...state.results,
         ]
       }
@@ -64,7 +65,7 @@ function fruitMachine(state: State = defaultState, action: Actions) {
         isSpinning: false,
         isWin: false,
         results: [
-          { color: action.payload.color, count: action.payload.matchCount },
+          { key: uuid(), color: action.payload.color, count: action.payload.matchCount },
           ...state.results,
         ]
       }
