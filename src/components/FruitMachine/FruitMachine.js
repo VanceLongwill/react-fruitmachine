@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 import Wheel from '../Wheel'
+import SpinResult from '../SpinResult'
 
 const FruitMachineContainer = styled.div`
   margin-top: 250px;
@@ -16,13 +17,24 @@ const WheelsContainer = styled.div`
   grid-template-areas: "wheel wheel wheel";
 `
 
+const Layout = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`
+
 export function FruitMachine(props) {
-  const { wheels, spinWheel } = props
+  const { 
+    wheels, 
+    spinWheelRequest,
+    results,
+    isWin,
+  } = props
 
   return (
-    <div>
-      <button onClick={spinWheel}>
-        Click me
+    <Layout>
+      <button onClick={spinWheelRequest}>
+        Spin the wheel
       </button>
       <FruitMachineContainer>
         <WheelsContainer>
@@ -31,6 +43,7 @@ export function FruitMachine(props) {
           <Wheel prevIndex={wheels[2].prev} nextIndex={wheels[2].next} delay={0}/>
         </WheelsContainer>
       </FruitMachineContainer>
-    </div>
+      <SpinResult results={results} />
+    </Layout>
   )
 }
