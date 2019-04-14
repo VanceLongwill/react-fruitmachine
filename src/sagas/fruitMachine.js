@@ -10,6 +10,10 @@ import {
 import { getColorMatches, getRandom } from '../utils'
 
 export function* handleGenerateSpin() {
+  /*
+   * Using Math.random to determine where the spin will land is easily hackable
+   * e.g. in console `Math.random = () => 0.5` will result in [6,6,6]
+   */
   yield put(spinWheelSuccess([getRandom(), getRandom(), getRandom()]))
 }
 

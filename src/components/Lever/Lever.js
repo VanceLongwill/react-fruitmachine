@@ -18,7 +18,7 @@ const leverAnimation = keyframes`
 const AnimatedLever = styled.div`
   transform: rotate(90deg);
   position: absolute;
-  margin-left: 400px;
+  margin-left: 450px;
   margin-top: -160px;
   height: 200px;
   width: 200px;

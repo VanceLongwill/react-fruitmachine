@@ -8,24 +8,21 @@ const Facet = styled.div`
   color: rgba(0,0,0,0.9);
   border-radius: 5px;
   border: 10px solid rgb(191, 191, 191);
-  opacity: 0.9;
   background-color: ${p => p.color};
   transform: rotateX(${p => p.rotateX}deg)
     translateZ(${p => p.radius}px);
 `
 
-const FacetText = styled.p`
-  font-size: 36px;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 28px;
-`
+// const FacetText = styled.p`
+//   font-size: 36px;
+//   font-weight: bold;
+//   text-align: center;
+//   margin-top: 28px;
+// `
 
 export function WheelFace(props) {
-  const { color, text, isActive, radius, rotateX } = props
+  const { color, radius, rotateX } = props
   return (
-    <Facet color={color} radius={radius} rotateX={rotateX}>
-      <FacetText>{text}</FacetText>
-    </Facet>
+    <Facet color={color} radius={radius} rotateX={rotateX} />
   )
 }

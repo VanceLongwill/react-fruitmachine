@@ -43,7 +43,7 @@ export function Wheel(props) {
       <WheelFace 
         rotateX={WHEEL_ANGLE * i} 
         radius={WHEEL_RADIUS} 
-        color={COLORS_BY_INDEX[i]} 
+        color={COLORS_BY_INDEX[i].value} 
         text={i} />
     )
   }

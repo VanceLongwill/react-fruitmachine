@@ -7,6 +7,21 @@ import Lever from '../Lever'
 const FruitMachineContainer = styled.div`
   margin-top: 250px;
   perspective: 2000;
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -200px;
+    left: -60px;
+    right: -59px;
+    top: -200px;
+    z-index: 999;
+    border: 40px solid rgba(255, 211, 78, 0.8);
+    border-top: 200px solid rgba(255, 185, 51, 0.8);
+    border-bottom: 200px solid rgba(239, 163, 19, 0.8);
+    pointer-events: none;
+    border-radius: 12px;
+    box-shadow: inset 0 10px 10px rgba(0,0,0,0.4);
+  }
 `
 
 const WheelsContainer = styled.div`
