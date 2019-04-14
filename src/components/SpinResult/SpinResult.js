@@ -18,11 +18,20 @@ const StyledText = styled.p`
   margin-top: 5px;
   margin-bottom: 5px;
   border-radius: 5px;
-  width: 600px;
-  background-color: white;
+  width: 500px;
   text-align: center;
+  background-color: white;
   box-shadow: 1px 1px 2px;
-  color: ${p => p.isWin ? COLORS[1].value : 'rgb(239, 163, 19)'};
+  color: ${p => {
+    switch(p.count) {
+      case 3:
+        return COLORS[1].value
+      case 2:
+        return 'rgb(239, 163, 19)'
+      default:
+        return COLORS[0].value
+    }
+  }};
   &.animate-enter {
     opacity: 0;
   }
@@ -37,7 +46,7 @@ function getResultText(count, color) {
     case 3:
       return `Jackpot! You won with ${count} ${color} squares`
     case 2:
-      return `Unlucky! You only matched ${count} ${color} squares`
+      return `Almost! You only matched ${count} ${color} squares`
     default:
       return `Unlucky! You didn't get any matches`
   }
@@ -47,7 +56,7 @@ export function SpinResult(props) {
   const { results } = props;
   const notifications = results.map((result, i) => (
     <CSSTransition key={result.key} exit={false} classNames="animate" timeout={1000}>
-      <StyledText isWin={result.count === 3}>
+      <StyledText count={result.count}>
         {getResultText(result.count, result.color)}
       </StyledText>
     </CSSTransition>

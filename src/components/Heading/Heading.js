@@ -4,13 +4,12 @@ import styled from 'styled-components'
 const HeadingContainer = styled.div`
   text-align: center;
 `
-
 const Title = styled.h1`
-  color: rgb(239, 163, 19);
+  color: rgb(75, 198, 155)
 `
 
 const Subtitle = styled.h2`
-  color: rgb(239, 163, 19);
+  color: rgb(68, 68, 68);
 `
 
 export function Heading() {

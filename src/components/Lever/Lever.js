@@ -8,7 +8,10 @@ const leverAnimation = keyframes`
     transform: rotateZ(0);
   }
   50% {
-    transform: rotateZ(30deg);
+    transform: rotateZ(50deg);
+  }
+  80% {
+    transform: rotateZ(-10deg);
   }
   100% {
     transform: rotateZ(0);
@@ -26,7 +29,7 @@ const AnimatedLever = styled.div`
     cursor: grab;
     transform-origin: 50% 72%;
     animation-iteration-count: 1; 
-    animation-timing-function: ease;
+    animation-timing-function: ease-out;
     animation-duration: 1s;
     animation-fill-mode: forwards;
     animation-name: ${p => p.isSpinning ? leverAnimation : 'none'};

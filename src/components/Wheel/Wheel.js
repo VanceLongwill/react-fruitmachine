@@ -5,7 +5,7 @@ import { ANIMATION_DURATION, WHEEL_ANGLE, WHEEL_RADIUS, WHEELFACES_PER_ROW, COLO
 import WheelFace from '../WheelFace'
 
 function getPosition(index) {
-  let pos = (index * WHEEL_ANGLE) + 360
+  let pos = (index * WHEEL_ANGLE) + (360 * 2)
   return pos
 }
 
