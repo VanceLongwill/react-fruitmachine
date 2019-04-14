@@ -1,7 +1,14 @@
+// @flow
 import { COLORS_BY_INDEX, WHEELFACES_PER_ROW } from '../config/constants'
 
-export function getColorMatches(indices) {
-  console.log(indices)
+type Matches = {
+  red?: number,
+  blue?: number,
+  green?: number,
+  yellow?: number,
+}
+
+export function getColorMatches(indices: Array<number>): Matches {
   return indices.reduce((acc, i) => {
     const color = COLORS_BY_INDEX[i].name
     if (acc[color]) {

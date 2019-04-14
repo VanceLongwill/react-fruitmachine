@@ -7,16 +7,7 @@ import {
   type Actions,
 } from '../actions'
 import uuid from 'uuid'
-import type { Wheel } from '../types/fruitMachine'
-
-type State = {
-  +wheels: Array<Wheel>,
-  +isSpinning: boolean,
-  +isWin: boolean,
-  +matchCount: number,
-  +matchColor: string,
-  +results: Array<{ key: string, color: string, count: number }>,
-}
+import type { Wheel, State } from '../types/fruitMachine'
 
 export const defaultState: State = {
   isSpinning: false,
@@ -33,6 +24,7 @@ function fruitMachine(state: State = defaultState, action: Actions) {
       return {
         ...state,
         isSpinning: true,
+        isWin: false,
         // uncomment to start wheel spinning before receiving random index results from API
         // wheels: state.wheels.map<Wheel>((wheel) => {
         //   return {
@@ -42,12 +34,13 @@ function fruitMachine(state: State = defaultState, action: Actions) {
         // })
       }
     case SPIN_WHEEL_SUCCESS:
+      let castAction = (action: any) // to get rid of flow error
       return {
         ...state,
         wheels: state.wheels.map<Wheel>((wheel, i) => {
           return {
             prev: wheel.next === -1 ? 0 : wheel.next,
-            next: action.payload.randoms[i],
+            next: castAction.payload.randoms[i],
           }
         }),
       }

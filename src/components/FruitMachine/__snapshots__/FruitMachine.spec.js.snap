@@ -1,0 +1,1459 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FruitMachine should match snapshot for a losing state 1`] = `
+<styled.div>
+  <div
+    className="sc-EHOje gOhZmQ"
+  >
+    <styled.div>
+      <div
+        className="sc-bxivhb Zlvyc"
+      >
+        <styled.div>
+          <div
+            className="sc-ifAKCX iCIWHk"
+          >
+            <styled.div
+              animation={
+                Keyframes {
+                  "id": "sc-keyframes-kuwTox",
+                  "inject": [Function],
+                  "name": "kuwTox",
+                  "rules": Array [
+                    "@-webkit-keyframes kuwTox{from{-webkit-transform:rotateX(0deg);-ms-transform:rotateX(0deg);transform:rotateX(0deg);}to{-webkit-transform:rotateX(-900deg);-ms-transform:rotateX(-900deg);transform:rotateX(-900deg);}}",
+                    "@keyframes kuwTox{from{-webkit-transform:rotateX(0deg);-ms-transform:rotateX(0deg);transform:rotateX(0deg);}to{-webkit-transform:rotateX(-900deg);-ms-transform:rotateX(-900deg);transform:rotateX(-900deg);}}",
+                  ],
+                  "toString": [Function],
+                }
+              }
+              delay={600}
+            >
+              <div
+                className="sc-bwzfXH dBhiHi"
+              >
+                <styled.div
+                  color="rgb(198, 6, 0)"
+                  radius={200}
+                  rotateX={0}
+                >
+                  <div
+                    className="sc-bdVaJa eIXeZU"
+                    color="rgb(198, 6, 0)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(105, 150, 15)"
+                  radius={200}
+                  rotateX={30}
+                >
+                  <div
+                    className="sc-bdVaJa VTciH"
+                    color="rgb(105, 150, 15)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(79, 190, 242)"
+                  radius={200}
+                  rotateX={60}
+                >
+                  <div
+                    className="sc-bdVaJa eBVXud"
+                    color="rgb(79, 190, 242)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(249, 244, 87)"
+                  radius={200}
+                  rotateX={90}
+                >
+                  <div
+                    className="sc-bdVaJa dDjJrr"
+                    color="rgb(249, 244, 87)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(198, 6, 0)"
+                  radius={200}
+                  rotateX={120}
+                >
+                  <div
+                    className="sc-bdVaJa eanJqt"
+                    color="rgb(198, 6, 0)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(105, 150, 15)"
+                  radius={200}
+                  rotateX={150}
+                >
+                  <div
+                    className="sc-bdVaJa eonNfq"
+                    color="rgb(105, 150, 15)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(79, 190, 242)"
+                  radius={200}
+                  rotateX={180}
+                >
+                  <div
+                    className="sc-bdVaJa gPqlbN"
+                    color="rgb(79, 190, 242)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(249, 244, 87)"
+                  radius={200}
+                  rotateX={210}
+                >
+                  <div
+                    className="sc-bdVaJa esVdTs"
+                    color="rgb(249, 244, 87)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(198, 6, 0)"
+                  radius={200}
+                  rotateX={240}
+                >
+                  <div
+                    className="sc-bdVaJa dNkfLi"
+                    color="rgb(198, 6, 0)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(105, 150, 15)"
+                  radius={200}
+                  rotateX={270}
+                >
+                  <div
+                    className="sc-bdVaJa lfcSTa"
+                    color="rgb(105, 150, 15)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(79, 190, 242)"
+                  radius={200}
+                  rotateX={300}
+                >
+                  <div
+                    className="sc-bdVaJa bVdIgK"
+                    color="rgb(79, 190, 242)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(249, 244, 87)"
+                  radius={200}
+                  rotateX={330}
+                >
+                  <div
+                    className="sc-bdVaJa gWhcpB"
+                    color="rgb(249, 244, 87)"
+                    radius={200}
+                  />
+                </styled.div>
+              </div>
+            </styled.div>
+            <styled.div
+              animation={
+                Keyframes {
+                  "id": "sc-keyframes-jjGohH",
+                  "inject": [Function],
+                  "name": "jjGohH",
+                  "rules": Array [
+                    "@-webkit-keyframes jjGohH{from{-webkit-transform:rotateX(0deg);-ms-transform:rotateX(0deg);transform:rotateX(0deg);}to{-webkit-transform:rotateX(-960deg);-ms-transform:rotateX(-960deg);transform:rotateX(-960deg);}}",
+                    "@keyframes jjGohH{from{-webkit-transform:rotateX(0deg);-ms-transform:rotateX(0deg);transform:rotateX(0deg);}to{-webkit-transform:rotateX(-960deg);-ms-transform:rotateX(-960deg);transform:rotateX(-960deg);}}",
+                  ],
+                  "toString": [Function],
+                }
+              }
+              delay={300}
+            >
+              <div
+                className="sc-bwzfXH cNHUSA"
+              >
+                <styled.div
+                  color="rgb(198, 6, 0)"
+                  radius={200}
+                  rotateX={0}
+                >
+                  <div
+                    className="sc-bdVaJa eIXeZU"
+                    color="rgb(198, 6, 0)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(105, 150, 15)"
+                  radius={200}
+                  rotateX={30}
+                >
+                  <div
+                    className="sc-bdVaJa VTciH"
+                    color="rgb(105, 150, 15)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(79, 190, 242)"
+                  radius={200}
+                  rotateX={60}
+                >
+                  <div
+                    className="sc-bdVaJa eBVXud"
+                    color="rgb(79, 190, 242)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(249, 244, 87)"
+                  radius={200}
+                  rotateX={90}
+                >
+                  <div
+                    className="sc-bdVaJa dDjJrr"
+                    color="rgb(249, 244, 87)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(198, 6, 0)"
+                  radius={200}
+                  rotateX={120}
+                >
+                  <div
+                    className="sc-bdVaJa eanJqt"
+                    color="rgb(198, 6, 0)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(105, 150, 15)"
+                  radius={200}
+                  rotateX={150}
+                >
+                  <div
+                    className="sc-bdVaJa eonNfq"
+                    color="rgb(105, 150, 15)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(79, 190, 242)"
+                  radius={200}
+                  rotateX={180}
+                >
+                  <div
+                    className="sc-bdVaJa gPqlbN"
+                    color="rgb(79, 190, 242)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(249, 244, 87)"
+                  radius={200}
+                  rotateX={210}
+                >
+                  <div
+                    className="sc-bdVaJa esVdTs"
+                    color="rgb(249, 244, 87)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(198, 6, 0)"
+                  radius={200}
+                  rotateX={240}
+                >
+                  <div
+                    className="sc-bdVaJa dNkfLi"
+                    color="rgb(198, 6, 0)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(105, 150, 15)"
+                  radius={200}
+                  rotateX={270}
+                >
+                  <div
+                    className="sc-bdVaJa lfcSTa"
+                    color="rgb(105, 150, 15)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(79, 190, 242)"
+                  radius={200}
+                  rotateX={300}
+                >
+                  <div
+                    className="sc-bdVaJa bVdIgK"
+                    color="rgb(79, 190, 242)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(249, 244, 87)"
+                  radius={200}
+                  rotateX={330}
+                >
+                  <div
+                    className="sc-bdVaJa gWhcpB"
+                    color="rgb(249, 244, 87)"
+                    radius={200}
+                  />
+                </styled.div>
+              </div>
+            </styled.div>
+            <styled.div
+              animation={
+                Keyframes {
+                  "id": "sc-keyframes-fhsdsz",
+                  "inject": [Function],
+                  "name": "fhsdsz",
+                  "rules": Array [
+                    "@-webkit-keyframes fhsdsz{from{-webkit-transform:rotateX(0deg);-ms-transform:rotateX(0deg);transform:rotateX(0deg);}to{-webkit-transform:rotateX(-990deg);-ms-transform:rotateX(-990deg);transform:rotateX(-990deg);}}",
+                    "@keyframes fhsdsz{from{-webkit-transform:rotateX(0deg);-ms-transform:rotateX(0deg);transform:rotateX(0deg);}to{-webkit-transform:rotateX(-990deg);-ms-transform:rotateX(-990deg);transform:rotateX(-990deg);}}",
+                  ],
+                  "toString": [Function],
+                }
+              }
+              delay={0}
+            >
+              <div
+                className="sc-bwzfXH fObzXh"
+              >
+                <styled.div
+                  color="rgb(198, 6, 0)"
+                  radius={200}
+                  rotateX={0}
+                >
+                  <div
+                    className="sc-bdVaJa eIXeZU"
+                    color="rgb(198, 6, 0)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(105, 150, 15)"
+                  radius={200}
+                  rotateX={30}
+                >
+                  <div
+                    className="sc-bdVaJa VTciH"
+                    color="rgb(105, 150, 15)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(79, 190, 242)"
+                  radius={200}
+                  rotateX={60}
+                >
+                  <div
+                    className="sc-bdVaJa eBVXud"
+                    color="rgb(79, 190, 242)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(249, 244, 87)"
+                  radius={200}
+                  rotateX={90}
+                >
+                  <div
+                    className="sc-bdVaJa dDjJrr"
+                    color="rgb(249, 244, 87)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(198, 6, 0)"
+                  radius={200}
+                  rotateX={120}
+                >
+                  <div
+                    className="sc-bdVaJa eanJqt"
+                    color="rgb(198, 6, 0)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(105, 150, 15)"
+                  radius={200}
+                  rotateX={150}
+                >
+                  <div
+                    className="sc-bdVaJa eonNfq"
+                    color="rgb(105, 150, 15)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(79, 190, 242)"
+                  radius={200}
+                  rotateX={180}
+                >
+                  <div
+                    className="sc-bdVaJa gPqlbN"
+                    color="rgb(79, 190, 242)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(249, 244, 87)"
+                  radius={200}
+                  rotateX={210}
+                >
+                  <div
+                    className="sc-bdVaJa esVdTs"
+                    color="rgb(249, 244, 87)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(198, 6, 0)"
+                  radius={200}
+                  rotateX={240}
+                >
+                  <div
+                    className="sc-bdVaJa dNkfLi"
+                    color="rgb(198, 6, 0)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(105, 150, 15)"
+                  radius={200}
+                  rotateX={270}
+                >
+                  <div
+                    className="sc-bdVaJa lfcSTa"
+                    color="rgb(105, 150, 15)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(79, 190, 242)"
+                  radius={200}
+                  rotateX={300}
+                >
+                  <div
+                    className="sc-bdVaJa bVdIgK"
+                    color="rgb(79, 190, 242)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(249, 244, 87)"
+                  radius={200}
+                  rotateX={330}
+                >
+                  <div
+                    className="sc-bdVaJa gWhcpB"
+                    color="rgb(249, 244, 87)"
+                    radius={200}
+                  />
+                </styled.div>
+              </div>
+            </styled.div>
+          </div>
+        </styled.div>
+        <styled.div>
+          <div
+            className="sc-htpNat jJKMgF"
+          >
+            <svg>
+              control-lever.svg
+            </svg>
+          </div>
+        </styled.div>
+      </div>
+    </styled.div>
+  </div>
+</styled.div>
+`;
+
+exports[`FruitMachine should match snapshot for a winning state 1`] = `
+<styled.div>
+  <div
+    className="sc-EHOje gOhZmQ"
+  >
+    <styled.div>
+      <div
+        className="sc-bxivhb Zlvyc"
+      >
+        <styled.div>
+          <div
+            className="sc-ifAKCX iCIWHk"
+          >
+            <styled.div
+              animation={
+                Keyframes {
+                  "id": "sc-keyframes-juKBsb",
+                  "inject": [Function],
+                  "name": "juKBsb",
+                  "rules": Array [
+                    "@-webkit-keyframes juKBsb{from{-webkit-transform:rotateX(0deg);-ms-transform:rotateX(0deg);transform:rotateX(0deg);}to{-webkit-transform:rotateX(-840deg);-ms-transform:rotateX(-840deg);transform:rotateX(-840deg);}}",
+                    "@keyframes juKBsb{from{-webkit-transform:rotateX(0deg);-ms-transform:rotateX(0deg);transform:rotateX(0deg);}to{-webkit-transform:rotateX(-840deg);-ms-transform:rotateX(-840deg);transform:rotateX(-840deg);}}",
+                  ],
+                  "toString": [Function],
+                }
+              }
+              delay={600}
+            >
+              <div
+                className="sc-bwzfXH jJxmhu"
+              >
+                <styled.div
+                  color="rgb(198, 6, 0)"
+                  radius={200}
+                  rotateX={0}
+                >
+                  <div
+                    className="sc-bdVaJa eIXeZU"
+                    color="rgb(198, 6, 0)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(105, 150, 15)"
+                  radius={200}
+                  rotateX={30}
+                >
+                  <div
+                    className="sc-bdVaJa VTciH"
+                    color="rgb(105, 150, 15)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(79, 190, 242)"
+                  radius={200}
+                  rotateX={60}
+                >
+                  <div
+                    className="sc-bdVaJa eBVXud"
+                    color="rgb(79, 190, 242)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(249, 244, 87)"
+                  radius={200}
+                  rotateX={90}
+                >
+                  <div
+                    className="sc-bdVaJa dDjJrr"
+                    color="rgb(249, 244, 87)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(198, 6, 0)"
+                  radius={200}
+                  rotateX={120}
+                >
+                  <div
+                    className="sc-bdVaJa eanJqt"
+                    color="rgb(198, 6, 0)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(105, 150, 15)"
+                  radius={200}
+                  rotateX={150}
+                >
+                  <div
+                    className="sc-bdVaJa eonNfq"
+                    color="rgb(105, 150, 15)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(79, 190, 242)"
+                  radius={200}
+                  rotateX={180}
+                >
+                  <div
+                    className="sc-bdVaJa gPqlbN"
+                    color="rgb(79, 190, 242)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(249, 244, 87)"
+                  radius={200}
+                  rotateX={210}
+                >
+                  <div
+                    className="sc-bdVaJa esVdTs"
+                    color="rgb(249, 244, 87)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(198, 6, 0)"
+                  radius={200}
+                  rotateX={240}
+                >
+                  <div
+                    className="sc-bdVaJa dNkfLi"
+                    color="rgb(198, 6, 0)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(105, 150, 15)"
+                  radius={200}
+                  rotateX={270}
+                >
+                  <div
+                    className="sc-bdVaJa lfcSTa"
+                    color="rgb(105, 150, 15)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(79, 190, 242)"
+                  radius={200}
+                  rotateX={300}
+                >
+                  <div
+                    className="sc-bdVaJa bVdIgK"
+                    color="rgb(79, 190, 242)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(249, 244, 87)"
+                  radius={200}
+                  rotateX={330}
+                >
+                  <div
+                    className="sc-bdVaJa gWhcpB"
+                    color="rgb(249, 244, 87)"
+                    radius={200}
+                  />
+                </styled.div>
+              </div>
+            </styled.div>
+            <styled.div
+              animation={
+                Keyframes {
+                  "id": "sc-keyframes-juKBsb",
+                  "inject": [Function],
+                  "name": "juKBsb",
+                  "rules": Array [
+                    "@-webkit-keyframes juKBsb{from{-webkit-transform:rotateX(0deg);-ms-transform:rotateX(0deg);transform:rotateX(0deg);}to{-webkit-transform:rotateX(-840deg);-ms-transform:rotateX(-840deg);transform:rotateX(-840deg);}}",
+                    "@keyframes juKBsb{from{-webkit-transform:rotateX(0deg);-ms-transform:rotateX(0deg);transform:rotateX(0deg);}to{-webkit-transform:rotateX(-840deg);-ms-transform:rotateX(-840deg);transform:rotateX(-840deg);}}",
+                  ],
+                  "toString": [Function],
+                }
+              }
+              delay={300}
+            >
+              <div
+                className="sc-bwzfXH dPJXnV"
+              >
+                <styled.div
+                  color="rgb(198, 6, 0)"
+                  radius={200}
+                  rotateX={0}
+                >
+                  <div
+                    className="sc-bdVaJa eIXeZU"
+                    color="rgb(198, 6, 0)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(105, 150, 15)"
+                  radius={200}
+                  rotateX={30}
+                >
+                  <div
+                    className="sc-bdVaJa VTciH"
+                    color="rgb(105, 150, 15)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(79, 190, 242)"
+                  radius={200}
+                  rotateX={60}
+                >
+                  <div
+                    className="sc-bdVaJa eBVXud"
+                    color="rgb(79, 190, 242)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(249, 244, 87)"
+                  radius={200}
+                  rotateX={90}
+                >
+                  <div
+                    className="sc-bdVaJa dDjJrr"
+                    color="rgb(249, 244, 87)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(198, 6, 0)"
+                  radius={200}
+                  rotateX={120}
+                >
+                  <div
+                    className="sc-bdVaJa eanJqt"
+                    color="rgb(198, 6, 0)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(105, 150, 15)"
+                  radius={200}
+                  rotateX={150}
+                >
+                  <div
+                    className="sc-bdVaJa eonNfq"
+                    color="rgb(105, 150, 15)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(79, 190, 242)"
+                  radius={200}
+                  rotateX={180}
+                >
+                  <div
+                    className="sc-bdVaJa gPqlbN"
+                    color="rgb(79, 190, 242)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(249, 244, 87)"
+                  radius={200}
+                  rotateX={210}
+                >
+                  <div
+                    className="sc-bdVaJa esVdTs"
+                    color="rgb(249, 244, 87)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(198, 6, 0)"
+                  radius={200}
+                  rotateX={240}
+                >
+                  <div
+                    className="sc-bdVaJa dNkfLi"
+                    color="rgb(198, 6, 0)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(105, 150, 15)"
+                  radius={200}
+                  rotateX={270}
+                >
+                  <div
+                    className="sc-bdVaJa lfcSTa"
+                    color="rgb(105, 150, 15)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(79, 190, 242)"
+                  radius={200}
+                  rotateX={300}
+                >
+                  <div
+                    className="sc-bdVaJa bVdIgK"
+                    color="rgb(79, 190, 242)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(249, 244, 87)"
+                  radius={200}
+                  rotateX={330}
+                >
+                  <div
+                    className="sc-bdVaJa gWhcpB"
+                    color="rgb(249, 244, 87)"
+                    radius={200}
+                  />
+                </styled.div>
+              </div>
+            </styled.div>
+            <styled.div
+              animation={
+                Keyframes {
+                  "id": "sc-keyframes-juKBsb",
+                  "inject": [Function],
+                  "name": "juKBsb",
+                  "rules": Array [
+                    "@-webkit-keyframes juKBsb{from{-webkit-transform:rotateX(0deg);-ms-transform:rotateX(0deg);transform:rotateX(0deg);}to{-webkit-transform:rotateX(-840deg);-ms-transform:rotateX(-840deg);transform:rotateX(-840deg);}}",
+                    "@keyframes juKBsb{from{-webkit-transform:rotateX(0deg);-ms-transform:rotateX(0deg);transform:rotateX(0deg);}to{-webkit-transform:rotateX(-840deg);-ms-transform:rotateX(-840deg);transform:rotateX(-840deg);}}",
+                  ],
+                  "toString": [Function],
+                }
+              }
+              delay={0}
+            >
+              <div
+                className="sc-bwzfXH kAevwf"
+              >
+                <styled.div
+                  color="rgb(198, 6, 0)"
+                  radius={200}
+                  rotateX={0}
+                >
+                  <div
+                    className="sc-bdVaJa eIXeZU"
+                    color="rgb(198, 6, 0)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(105, 150, 15)"
+                  radius={200}
+                  rotateX={30}
+                >
+                  <div
+                    className="sc-bdVaJa VTciH"
+                    color="rgb(105, 150, 15)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(79, 190, 242)"
+                  radius={200}
+                  rotateX={60}
+                >
+                  <div
+                    className="sc-bdVaJa eBVXud"
+                    color="rgb(79, 190, 242)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(249, 244, 87)"
+                  radius={200}
+                  rotateX={90}
+                >
+                  <div
+                    className="sc-bdVaJa dDjJrr"
+                    color="rgb(249, 244, 87)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(198, 6, 0)"
+                  radius={200}
+                  rotateX={120}
+                >
+                  <div
+                    className="sc-bdVaJa eanJqt"
+                    color="rgb(198, 6, 0)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(105, 150, 15)"
+                  radius={200}
+                  rotateX={150}
+                >
+                  <div
+                    className="sc-bdVaJa eonNfq"
+                    color="rgb(105, 150, 15)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(79, 190, 242)"
+                  radius={200}
+                  rotateX={180}
+                >
+                  <div
+                    className="sc-bdVaJa gPqlbN"
+                    color="rgb(79, 190, 242)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(249, 244, 87)"
+                  radius={200}
+                  rotateX={210}
+                >
+                  <div
+                    className="sc-bdVaJa esVdTs"
+                    color="rgb(249, 244, 87)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(198, 6, 0)"
+                  radius={200}
+                  rotateX={240}
+                >
+                  <div
+                    className="sc-bdVaJa dNkfLi"
+                    color="rgb(198, 6, 0)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(105, 150, 15)"
+                  radius={200}
+                  rotateX={270}
+                >
+                  <div
+                    className="sc-bdVaJa lfcSTa"
+                    color="rgb(105, 150, 15)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(79, 190, 242)"
+                  radius={200}
+                  rotateX={300}
+                >
+                  <div
+                    className="sc-bdVaJa bVdIgK"
+                    color="rgb(79, 190, 242)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(249, 244, 87)"
+                  radius={200}
+                  rotateX={330}
+                >
+                  <div
+                    className="sc-bdVaJa gWhcpB"
+                    color="rgb(249, 244, 87)"
+                    radius={200}
+                  />
+                </styled.div>
+              </div>
+            </styled.div>
+          </div>
+        </styled.div>
+        <styled.div>
+          <div
+            className="sc-htpNat jJKMgF"
+          >
+            <svg>
+              control-lever.svg
+            </svg>
+          </div>
+        </styled.div>
+      </div>
+    </styled.div>
+  </div>
+</styled.div>
+`;
+
+exports[`FruitMachine should match snapshot for initial state 1`] = `
+<styled.div>
+  <div
+    className="sc-EHOje gOhZmQ"
+  >
+    <styled.div>
+      <div
+        className="sc-bxivhb Zlvyc"
+      >
+        <styled.div>
+          <div
+            className="sc-ifAKCX iCIWHk"
+          >
+            <styled.div
+              animation={
+                Keyframes {
+                  "id": "sc-keyframes-iffaHa",
+                  "inject": [Function],
+                  "name": "iffaHa",
+                  "rules": Array [
+                    "@-webkit-keyframes iffaHa{from{-webkit-transform:rotateX(0deg);-ms-transform:rotateX(0deg);transform:rotateX(0deg);}to{-webkit-transform:rotateX(-360deg);-ms-transform:rotateX(-360deg);transform:rotateX(-360deg);}}",
+                    "@keyframes iffaHa{from{-webkit-transform:rotateX(0deg);-ms-transform:rotateX(0deg);transform:rotateX(0deg);}to{-webkit-transform:rotateX(-360deg);-ms-transform:rotateX(-360deg);transform:rotateX(-360deg);}}",
+                  ],
+                  "toString": [Function],
+                }
+              }
+              delay={600}
+            >
+              <div
+                className="sc-bwzfXH dygrLM"
+              >
+                <styled.div
+                  color="rgb(198, 6, 0)"
+                  radius={200}
+                  rotateX={0}
+                >
+                  <div
+                    className="sc-bdVaJa eIXeZU"
+                    color="rgb(198, 6, 0)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(105, 150, 15)"
+                  radius={200}
+                  rotateX={30}
+                >
+                  <div
+                    className="sc-bdVaJa VTciH"
+                    color="rgb(105, 150, 15)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(79, 190, 242)"
+                  radius={200}
+                  rotateX={60}
+                >
+                  <div
+                    className="sc-bdVaJa eBVXud"
+                    color="rgb(79, 190, 242)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(249, 244, 87)"
+                  radius={200}
+                  rotateX={90}
+                >
+                  <div
+                    className="sc-bdVaJa dDjJrr"
+                    color="rgb(249, 244, 87)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(198, 6, 0)"
+                  radius={200}
+                  rotateX={120}
+                >
+                  <div
+                    className="sc-bdVaJa eanJqt"
+                    color="rgb(198, 6, 0)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(105, 150, 15)"
+                  radius={200}
+                  rotateX={150}
+                >
+                  <div
+                    className="sc-bdVaJa eonNfq"
+                    color="rgb(105, 150, 15)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(79, 190, 242)"
+                  radius={200}
+                  rotateX={180}
+                >
+                  <div
+                    className="sc-bdVaJa gPqlbN"
+                    color="rgb(79, 190, 242)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(249, 244, 87)"
+                  radius={200}
+                  rotateX={210}
+                >
+                  <div
+                    className="sc-bdVaJa esVdTs"
+                    color="rgb(249, 244, 87)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(198, 6, 0)"
+                  radius={200}
+                  rotateX={240}
+                >
+                  <div
+                    className="sc-bdVaJa dNkfLi"
+                    color="rgb(198, 6, 0)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(105, 150, 15)"
+                  radius={200}
+                  rotateX={270}
+                >
+                  <div
+                    className="sc-bdVaJa lfcSTa"
+                    color="rgb(105, 150, 15)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(79, 190, 242)"
+                  radius={200}
+                  rotateX={300}
+                >
+                  <div
+                    className="sc-bdVaJa bVdIgK"
+                    color="rgb(79, 190, 242)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(249, 244, 87)"
+                  radius={200}
+                  rotateX={330}
+                >
+                  <div
+                    className="sc-bdVaJa gWhcpB"
+                    color="rgb(249, 244, 87)"
+                    radius={200}
+                  />
+                </styled.div>
+              </div>
+            </styled.div>
+            <styled.div
+              animation={
+                Keyframes {
+                  "id": "sc-keyframes-iffaHa",
+                  "inject": [Function],
+                  "name": "iffaHa",
+                  "rules": Array [
+                    "@-webkit-keyframes iffaHa{from{-webkit-transform:rotateX(0deg);-ms-transform:rotateX(0deg);transform:rotateX(0deg);}to{-webkit-transform:rotateX(-360deg);-ms-transform:rotateX(-360deg);transform:rotateX(-360deg);}}",
+                    "@keyframes iffaHa{from{-webkit-transform:rotateX(0deg);-ms-transform:rotateX(0deg);transform:rotateX(0deg);}to{-webkit-transform:rotateX(-360deg);-ms-transform:rotateX(-360deg);transform:rotateX(-360deg);}}",
+                  ],
+                  "toString": [Function],
+                }
+              }
+              delay={300}
+            >
+              <div
+                className="sc-bwzfXH UCihG"
+              >
+                <styled.div
+                  color="rgb(198, 6, 0)"
+                  radius={200}
+                  rotateX={0}
+                >
+                  <div
+                    className="sc-bdVaJa eIXeZU"
+                    color="rgb(198, 6, 0)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(105, 150, 15)"
+                  radius={200}
+                  rotateX={30}
+                >
+                  <div
+                    className="sc-bdVaJa VTciH"
+                    color="rgb(105, 150, 15)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(79, 190, 242)"
+                  radius={200}
+                  rotateX={60}
+                >
+                  <div
+                    className="sc-bdVaJa eBVXud"
+                    color="rgb(79, 190, 242)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(249, 244, 87)"
+                  radius={200}
+                  rotateX={90}
+                >
+                  <div
+                    className="sc-bdVaJa dDjJrr"
+                    color="rgb(249, 244, 87)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(198, 6, 0)"
+                  radius={200}
+                  rotateX={120}
+                >
+                  <div
+                    className="sc-bdVaJa eanJqt"
+                    color="rgb(198, 6, 0)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(105, 150, 15)"
+                  radius={200}
+                  rotateX={150}
+                >
+                  <div
+                    className="sc-bdVaJa eonNfq"
+                    color="rgb(105, 150, 15)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(79, 190, 242)"
+                  radius={200}
+                  rotateX={180}
+                >
+                  <div
+                    className="sc-bdVaJa gPqlbN"
+                    color="rgb(79, 190, 242)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(249, 244, 87)"
+                  radius={200}
+                  rotateX={210}
+                >
+                  <div
+                    className="sc-bdVaJa esVdTs"
+                    color="rgb(249, 244, 87)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(198, 6, 0)"
+                  radius={200}
+                  rotateX={240}
+                >
+                  <div
+                    className="sc-bdVaJa dNkfLi"
+                    color="rgb(198, 6, 0)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(105, 150, 15)"
+                  radius={200}
+                  rotateX={270}
+                >
+                  <div
+                    className="sc-bdVaJa lfcSTa"
+                    color="rgb(105, 150, 15)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(79, 190, 242)"
+                  radius={200}
+                  rotateX={300}
+                >
+                  <div
+                    className="sc-bdVaJa bVdIgK"
+                    color="rgb(79, 190, 242)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(249, 244, 87)"
+                  radius={200}
+                  rotateX={330}
+                >
+                  <div
+                    className="sc-bdVaJa gWhcpB"
+                    color="rgb(249, 244, 87)"
+                    radius={200}
+                  />
+                </styled.div>
+              </div>
+            </styled.div>
+            <styled.div
+              animation={
+                Keyframes {
+                  "id": "sc-keyframes-iffaHa",
+                  "inject": [Function],
+                  "name": "iffaHa",
+                  "rules": Array [
+                    "@-webkit-keyframes iffaHa{from{-webkit-transform:rotateX(0deg);-ms-transform:rotateX(0deg);transform:rotateX(0deg);}to{-webkit-transform:rotateX(-360deg);-ms-transform:rotateX(-360deg);transform:rotateX(-360deg);}}",
+                    "@keyframes iffaHa{from{-webkit-transform:rotateX(0deg);-ms-transform:rotateX(0deg);transform:rotateX(0deg);}to{-webkit-transform:rotateX(-360deg);-ms-transform:rotateX(-360deg);transform:rotateX(-360deg);}}",
+                  ],
+                  "toString": [Function],
+                }
+              }
+              delay={0}
+            >
+              <div
+                className="sc-bwzfXH ceFzZs"
+              >
+                <styled.div
+                  color="rgb(198, 6, 0)"
+                  radius={200}
+                  rotateX={0}
+                >
+                  <div
+                    className="sc-bdVaJa eIXeZU"
+                    color="rgb(198, 6, 0)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(105, 150, 15)"
+                  radius={200}
+                  rotateX={30}
+                >
+                  <div
+                    className="sc-bdVaJa VTciH"
+                    color="rgb(105, 150, 15)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(79, 190, 242)"
+                  radius={200}
+                  rotateX={60}
+                >
+                  <div
+                    className="sc-bdVaJa eBVXud"
+                    color="rgb(79, 190, 242)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(249, 244, 87)"
+                  radius={200}
+                  rotateX={90}
+                >
+                  <div
+                    className="sc-bdVaJa dDjJrr"
+                    color="rgb(249, 244, 87)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(198, 6, 0)"
+                  radius={200}
+                  rotateX={120}
+                >
+                  <div
+                    className="sc-bdVaJa eanJqt"
+                    color="rgb(198, 6, 0)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(105, 150, 15)"
+                  radius={200}
+                  rotateX={150}
+                >
+                  <div
+                    className="sc-bdVaJa eonNfq"
+                    color="rgb(105, 150, 15)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(79, 190, 242)"
+                  radius={200}
+                  rotateX={180}
+                >
+                  <div
+                    className="sc-bdVaJa gPqlbN"
+                    color="rgb(79, 190, 242)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(249, 244, 87)"
+                  radius={200}
+                  rotateX={210}
+                >
+                  <div
+                    className="sc-bdVaJa esVdTs"
+                    color="rgb(249, 244, 87)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(198, 6, 0)"
+                  radius={200}
+                  rotateX={240}
+                >
+                  <div
+                    className="sc-bdVaJa dNkfLi"
+                    color="rgb(198, 6, 0)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(105, 150, 15)"
+                  radius={200}
+                  rotateX={270}
+                >
+                  <div
+                    className="sc-bdVaJa lfcSTa"
+                    color="rgb(105, 150, 15)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(79, 190, 242)"
+                  radius={200}
+                  rotateX={300}
+                >
+                  <div
+                    className="sc-bdVaJa bVdIgK"
+                    color="rgb(79, 190, 242)"
+                    radius={200}
+                  />
+                </styled.div>
+                <styled.div
+                  color="rgb(249, 244, 87)"
+                  radius={200}
+                  rotateX={330}
+                >
+                  <div
+                    className="sc-bdVaJa gWhcpB"
+                    color="rgb(249, 244, 87)"
+                    radius={200}
+                  />
+                </styled.div>
+              </div>
+            </styled.div>
+          </div>
+        </styled.div>
+        <styled.div>
+          <div
+            className="sc-htpNat jJKMgF"
+          >
+            <svg>
+              control-lever.svg
+            </svg>
+          </div>
+        </styled.div>
+      </div>
+    </styled.div>
+  </div>
+</styled.div>
+`;

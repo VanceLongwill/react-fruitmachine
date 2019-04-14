@@ -39,7 +39,8 @@ describe('fruitMachine reducer', () => {
     const state = fruitMachine(defaultState, winningSpin(color, count))
     expect(state.isSpinning).toBe(false)
     expect(state.isWin).toBe(true)
-    expect(state.results[0]).toEqual({ color, count })
+    expect(state.results[0].color).toBe(color)
+    expect(state.results[0].count).toBe(count)
   })
 
   it('should update correctly after LOSING_SPIN', () => {
@@ -48,6 +49,7 @@ describe('fruitMachine reducer', () => {
     const state = fruitMachine(defaultState, losingSpin(color, count))
     expect(state.isSpinning).toBe(false)
     expect(state.isWin).toBe(false)
-    expect(state.results[0]).toEqual({ color, count })
+    expect(state.results[0].color).toBe(color)
+    expect(state.results[0].count).toBe(count)
   })
 })

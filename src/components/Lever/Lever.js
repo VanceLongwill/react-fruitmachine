@@ -37,6 +37,7 @@ const AnimatedLever = styled.div`
   }
 `
 
+
 export function Lever(props) {
   const { isSpinning, onClick } = props
   return (

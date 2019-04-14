@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WheelFace should match snapshot 1`] = `
+<styled.div
+  color="green"
+  radius={200}
+  rotateX={20}
+>
+  <div
+    className="sc-bdVaJa bCPSZP"
+    color="green"
+    radius={200}
+  />
+</styled.div>
+`;

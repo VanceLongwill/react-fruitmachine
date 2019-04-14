@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SpinResult should match snapshot - 0 1`] = `
+<styled.div>
+  <div
+    className="sc-bdVaJa bzgQpZ"
+  >
+    <styled.p
+      count={3}
+    >
+      <p
+        className="sc-bwzfXH frQxat"
+      >
+        Jackpot! You won with 3 blue squares
+      </p>
+    </styled.p>
+  </div>
+</styled.div>
+`;
+
+exports[`SpinResult should match snapshot - 1 1`] = `
+<styled.div>
+  <div
+    className="sc-bdVaJa bzgQpZ"
+  >
+    <styled.p
+      count={2}
+    >
+      <p
+        className="sc-bwzfXH cBSDyN"
+      >
+        Almost! You only matched 2 blue squares
+      </p>
+    </styled.p>
+  </div>
+</styled.div>
+`;
+
+exports[`SpinResult should match snapshot - 2 1`] = `
+<styled.div>
+  <div
+    className="sc-bdVaJa bzgQpZ"
+  >
+    <styled.p
+      count={2}
+    >
+      <p
+        className="sc-bwzfXH cBSDyN"
+      >
+        Almost! You only matched 2 blue squares
+      </p>
+    </styled.p>
+  </div>
+</styled.div>
+`;

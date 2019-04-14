@@ -1,0 +1,529 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should match on initial render 1`] = `
+<styled.div>
+  <div
+    className="sc-bdVaJa kLZEci"
+  >
+    <styled.div>
+      <div
+        className="sc-bwzfXH gJIwTT"
+      >
+        <styled.h1>
+          <h1
+            className="sc-htpNat doCRxb"
+          >
+            Fruit Machine
+          </h1>
+        </styled.h1>
+        <styled.h2>
+          <h2
+            className="sc-bxivhb gzMTZi"
+          >
+            Click the lever to play!
+          </h2>
+        </styled.h2>
+      </div>
+    </styled.div>
+    <styled.div>
+      <div
+        className="sc-dnqmqq ktgQnk"
+      >
+        <styled.div>
+          <div
+            className="sc-gzVnrw hZQmJi"
+          >
+            <styled.div>
+              <div
+                className="sc-htoDjs iNCqmk"
+              >
+                <styled.div
+                  animation={
+                    Keyframes {
+                      "id": "sc-keyframes-iffaHa",
+                      "inject": [Function],
+                      "name": "iffaHa",
+                      "rules": Array [
+                        "@-webkit-keyframes iffaHa{from{-webkit-transform:rotateX(0deg);-ms-transform:rotateX(0deg);transform:rotateX(0deg);}to{-webkit-transform:rotateX(-360deg);-ms-transform:rotateX(-360deg);transform:rotateX(-360deg);}}",
+                        "@keyframes iffaHa{from{-webkit-transform:rotateX(0deg);-ms-transform:rotateX(0deg);transform:rotateX(0deg);}to{-webkit-transform:rotateX(-360deg);-ms-transform:rotateX(-360deg);transform:rotateX(-360deg);}}",
+                      ],
+                      "toString": [Function],
+                    }
+                  }
+                  delay={600}
+                >
+                  <div
+                    className="sc-EHOje dyaFxZ"
+                  >
+                    <styled.div
+                      color="rgb(198, 6, 0)"
+                      radius={200}
+                      rotateX={0}
+                    >
+                      <div
+                        className="sc-ifAKCX kCWOVI"
+                        color="rgb(198, 6, 0)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(105, 150, 15)"
+                      radius={200}
+                      rotateX={30}
+                    >
+                      <div
+                        className="sc-ifAKCX izXRiP"
+                        color="rgb(105, 150, 15)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(79, 190, 242)"
+                      radius={200}
+                      rotateX={60}
+                    >
+                      <div
+                        className="sc-ifAKCX cigEiH"
+                        color="rgb(79, 190, 242)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(249, 244, 87)"
+                      radius={200}
+                      rotateX={90}
+                    >
+                      <div
+                        className="sc-ifAKCX koPnqC"
+                        color="rgb(249, 244, 87)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(198, 6, 0)"
+                      radius={200}
+                      rotateX={120}
+                    >
+                      <div
+                        className="sc-ifAKCX clCoia"
+                        color="rgb(198, 6, 0)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(105, 150, 15)"
+                      radius={200}
+                      rotateX={150}
+                    >
+                      <div
+                        className="sc-ifAKCX DIzUk"
+                        color="rgb(105, 150, 15)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(79, 190, 242)"
+                      radius={200}
+                      rotateX={180}
+                    >
+                      <div
+                        className="sc-ifAKCX kgCjZJ"
+                        color="rgb(79, 190, 242)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(249, 244, 87)"
+                      radius={200}
+                      rotateX={210}
+                    >
+                      <div
+                        className="sc-ifAKCX fRrVJo"
+                        color="rgb(249, 244, 87)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(198, 6, 0)"
+                      radius={200}
+                      rotateX={240}
+                    >
+                      <div
+                        className="sc-ifAKCX jfFJoo"
+                        color="rgb(198, 6, 0)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(105, 150, 15)"
+                      radius={200}
+                      rotateX={270}
+                    >
+                      <div
+                        className="sc-ifAKCX kryPkJ"
+                        color="rgb(105, 150, 15)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(79, 190, 242)"
+                      radius={200}
+                      rotateX={300}
+                    >
+                      <div
+                        className="sc-ifAKCX cvHDGV"
+                        color="rgb(79, 190, 242)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(249, 244, 87)"
+                      radius={200}
+                      rotateX={330}
+                    >
+                      <div
+                        className="sc-ifAKCX hIBAnM"
+                        color="rgb(249, 244, 87)"
+                        radius={200}
+                      />
+                    </styled.div>
+                  </div>
+                </styled.div>
+                <styled.div
+                  animation={
+                    Keyframes {
+                      "id": "sc-keyframes-iffaHa",
+                      "inject": [Function],
+                      "name": "iffaHa",
+                      "rules": Array [
+                        "@-webkit-keyframes iffaHa{from{-webkit-transform:rotateX(0deg);-ms-transform:rotateX(0deg);transform:rotateX(0deg);}to{-webkit-transform:rotateX(-360deg);-ms-transform:rotateX(-360deg);transform:rotateX(-360deg);}}",
+                        "@keyframes iffaHa{from{-webkit-transform:rotateX(0deg);-ms-transform:rotateX(0deg);transform:rotateX(0deg);}to{-webkit-transform:rotateX(-360deg);-ms-transform:rotateX(-360deg);transform:rotateX(-360deg);}}",
+                      ],
+                      "toString": [Function],
+                    }
+                  }
+                  delay={300}
+                >
+                  <div
+                    className="sc-EHOje kbBytC"
+                  >
+                    <styled.div
+                      color="rgb(198, 6, 0)"
+                      radius={200}
+                      rotateX={0}
+                    >
+                      <div
+                        className="sc-ifAKCX kCWOVI"
+                        color="rgb(198, 6, 0)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(105, 150, 15)"
+                      radius={200}
+                      rotateX={30}
+                    >
+                      <div
+                        className="sc-ifAKCX izXRiP"
+                        color="rgb(105, 150, 15)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(79, 190, 242)"
+                      radius={200}
+                      rotateX={60}
+                    >
+                      <div
+                        className="sc-ifAKCX cigEiH"
+                        color="rgb(79, 190, 242)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(249, 244, 87)"
+                      radius={200}
+                      rotateX={90}
+                    >
+                      <div
+                        className="sc-ifAKCX koPnqC"
+                        color="rgb(249, 244, 87)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(198, 6, 0)"
+                      radius={200}
+                      rotateX={120}
+                    >
+                      <div
+                        className="sc-ifAKCX clCoia"
+                        color="rgb(198, 6, 0)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(105, 150, 15)"
+                      radius={200}
+                      rotateX={150}
+                    >
+                      <div
+                        className="sc-ifAKCX DIzUk"
+                        color="rgb(105, 150, 15)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(79, 190, 242)"
+                      radius={200}
+                      rotateX={180}
+                    >
+                      <div
+                        className="sc-ifAKCX kgCjZJ"
+                        color="rgb(79, 190, 242)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(249, 244, 87)"
+                      radius={200}
+                      rotateX={210}
+                    >
+                      <div
+                        className="sc-ifAKCX fRrVJo"
+                        color="rgb(249, 244, 87)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(198, 6, 0)"
+                      radius={200}
+                      rotateX={240}
+                    >
+                      <div
+                        className="sc-ifAKCX jfFJoo"
+                        color="rgb(198, 6, 0)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(105, 150, 15)"
+                      radius={200}
+                      rotateX={270}
+                    >
+                      <div
+                        className="sc-ifAKCX kryPkJ"
+                        color="rgb(105, 150, 15)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(79, 190, 242)"
+                      radius={200}
+                      rotateX={300}
+                    >
+                      <div
+                        className="sc-ifAKCX cvHDGV"
+                        color="rgb(79, 190, 242)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(249, 244, 87)"
+                      radius={200}
+                      rotateX={330}
+                    >
+                      <div
+                        className="sc-ifAKCX hIBAnM"
+                        color="rgb(249, 244, 87)"
+                        radius={200}
+                      />
+                    </styled.div>
+                  </div>
+                </styled.div>
+                <styled.div
+                  animation={
+                    Keyframes {
+                      "id": "sc-keyframes-iffaHa",
+                      "inject": [Function],
+                      "name": "iffaHa",
+                      "rules": Array [
+                        "@-webkit-keyframes iffaHa{from{-webkit-transform:rotateX(0deg);-ms-transform:rotateX(0deg);transform:rotateX(0deg);}to{-webkit-transform:rotateX(-360deg);-ms-transform:rotateX(-360deg);transform:rotateX(-360deg);}}",
+                        "@keyframes iffaHa{from{-webkit-transform:rotateX(0deg);-ms-transform:rotateX(0deg);transform:rotateX(0deg);}to{-webkit-transform:rotateX(-360deg);-ms-transform:rotateX(-360deg);transform:rotateX(-360deg);}}",
+                      ],
+                      "toString": [Function],
+                    }
+                  }
+                  delay={0}
+                >
+                  <div
+                    className="sc-EHOje lemLIa"
+                  >
+                    <styled.div
+                      color="rgb(198, 6, 0)"
+                      radius={200}
+                      rotateX={0}
+                    >
+                      <div
+                        className="sc-ifAKCX kCWOVI"
+                        color="rgb(198, 6, 0)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(105, 150, 15)"
+                      radius={200}
+                      rotateX={30}
+                    >
+                      <div
+                        className="sc-ifAKCX izXRiP"
+                        color="rgb(105, 150, 15)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(79, 190, 242)"
+                      radius={200}
+                      rotateX={60}
+                    >
+                      <div
+                        className="sc-ifAKCX cigEiH"
+                        color="rgb(79, 190, 242)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(249, 244, 87)"
+                      radius={200}
+                      rotateX={90}
+                    >
+                      <div
+                        className="sc-ifAKCX koPnqC"
+                        color="rgb(249, 244, 87)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(198, 6, 0)"
+                      radius={200}
+                      rotateX={120}
+                    >
+                      <div
+                        className="sc-ifAKCX clCoia"
+                        color="rgb(198, 6, 0)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(105, 150, 15)"
+                      radius={200}
+                      rotateX={150}
+                    >
+                      <div
+                        className="sc-ifAKCX DIzUk"
+                        color="rgb(105, 150, 15)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(79, 190, 242)"
+                      radius={200}
+                      rotateX={180}
+                    >
+                      <div
+                        className="sc-ifAKCX kgCjZJ"
+                        color="rgb(79, 190, 242)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(249, 244, 87)"
+                      radius={200}
+                      rotateX={210}
+                    >
+                      <div
+                        className="sc-ifAKCX fRrVJo"
+                        color="rgb(249, 244, 87)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(198, 6, 0)"
+                      radius={200}
+                      rotateX={240}
+                    >
+                      <div
+                        className="sc-ifAKCX jfFJoo"
+                        color="rgb(198, 6, 0)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(105, 150, 15)"
+                      radius={200}
+                      rotateX={270}
+                    >
+                      <div
+                        className="sc-ifAKCX kryPkJ"
+                        color="rgb(105, 150, 15)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(79, 190, 242)"
+                      radius={200}
+                      rotateX={300}
+                    >
+                      <div
+                        className="sc-ifAKCX cvHDGV"
+                        color="rgb(79, 190, 242)"
+                        radius={200}
+                      />
+                    </styled.div>
+                    <styled.div
+                      color="rgb(249, 244, 87)"
+                      radius={200}
+                      rotateX={330}
+                    >
+                      <div
+                        className="sc-ifAKCX hIBAnM"
+                        color="rgb(249, 244, 87)"
+                        radius={200}
+                      />
+                    </styled.div>
+                  </div>
+                </styled.div>
+              </div>
+            </styled.div>
+            <styled.div
+              isSpinning={false}
+              onClick={[Function]}
+            >
+              <div
+                className="sc-bZQynM hFUsqu"
+                onClick={[Function]}
+              >
+                <svg>
+                  control-lever.svg
+                </svg>
+              </div>
+            </styled.div>
+          </div>
+        </styled.div>
+      </div>
+    </styled.div>
+    <div
+      style={
+        Object {
+          "position": "relative",
+        }
+      }
+    />
+    <styled.div>
+      <div
+        className="sc-iwsKbI jzZdbI"
+      />
+    </styled.div>
+  </div>
+</styled.div>
+`;

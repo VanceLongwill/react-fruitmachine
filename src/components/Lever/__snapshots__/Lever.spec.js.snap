@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Lever should match snapshot 1`] = `
+<styled.div
+  isSpinning={false}
+  onClick={[MockFunction]}
+>
+  <div
+    className="sc-bdVaJa ksWKUd"
+    onClick={[MockFunction]}
+  >
+    <svg>
+      control-lever.svg
+    </svg>
+  </div>
+</styled.div>
+`;

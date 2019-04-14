@@ -1,8 +1,10 @@
+// @flow
 import React from 'react'
 import styled from 'styled-components'
 import { TransitionGroup, CSSTransition } from 'react-transition-group'
 
 import { COLORS } from '../../config/constants'
+import type { Result } from '../../types/fruitMachine'
 
 const ResultsContainer = styled.div`
   display: flex;
@@ -41,7 +43,7 @@ const StyledText = styled.p`
   }
 `
 
-function getResultText(count, color) {
+export function getResultText(count: number, color: string) {
   switch (count) {
     case 3:
       return `Jackpot! You won with ${count} ${color} squares`
@@ -52,7 +54,11 @@ function getResultText(count, color) {
   }
 }
 
-export function SpinResult(props) {
+type Props = {
+  results: Array<Result>,
+}
+
+export function SpinResult(props: Props) {
   const { results } = props
   const notifications = results.map((result, i) => (
     <CSSTransition

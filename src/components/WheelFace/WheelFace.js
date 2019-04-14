@@ -1,3 +1,4 @@
+// @flow
 import React from 'react'
 import styled from 'styled-components'
 
@@ -12,14 +13,13 @@ const Facet = styled.div`
   transform: rotateX(${p => p.rotateX}deg) translateZ(${p => p.radius}px);
 `
 
-// const FacetText = styled.p`
-//   font-size: 36px;
-//   font-weight: bold;
-//   text-align: center;
-//   margin-top: 28px;
-// `
+type Props = {
+  color: string,
+  radius: number,
+  rotateX: number,
+}
 
-export function WheelFace(props) {
+export function WheelFace(props: Props) {
   const { color, radius, rotateX } = props
   return <Facet color={color} radius={radius} rotateX={rotateX} />
 }

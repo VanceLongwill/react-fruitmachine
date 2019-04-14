@@ -1,7 +1,10 @@
+// @flow
 import React from 'react'
 import styled from 'styled-components'
 
-import Wheel from '../Wheel'
+import type { Wheel } from '../../types/fruitMachine'
+
+import WheelComponent from '../Wheel'
 import Lever from '../Lever'
 
 const FruitMachineContainer = styled.div`
@@ -40,24 +43,29 @@ const Layout = styled.div`
   width: 600px;
 `
 
-export function FruitMachine(props) {
+type Props = {
+  wheels: Array<Wheel>,
+  onSpin: () => {},
+  isSpinning: boolean,
+}
+export function FruitMachine(props: Props) {
   const { wheels, onSpin, isSpinning } = props
 
   return (
     <Layout>
       <FruitMachineContainer>
         <WheelsContainer>
-          <Wheel
+          <WheelComponent
             prevIndex={wheels[0].prev}
             nextIndex={wheels[0].next}
             delay={600}
           />
-          <Wheel
+          <WheelComponent
             prevIndex={wheels[1].prev}
             nextIndex={wheels[1].next}
             delay={300}
           />
-          <Wheel
+          <WheelComponent
             prevIndex={wheels[2].prev}
             nextIndex={wheels[2].next}
             delay={0}

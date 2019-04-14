@@ -1,3 +1,4 @@
+// @flow
 import React from 'react'
 import styled, { keyframes } from 'styled-components'
 
@@ -11,8 +12,7 @@ import {
 import WheelFace from '../WheelFace'
 
 function getPosition(index) {
-  let pos = index * WHEEL_ANGLE + 360 * 2
-  return pos
+  return index * WHEEL_ANGLE + 360 * 2
 }
 
 const AnimatedWheel = styled.div`
@@ -25,9 +25,14 @@ const AnimatedWheel = styled.div`
   animation-name: ${p => p.animation};
   animation-delay: -${p => p.delay}ms;
 `
-
-export function Wheel(props) {
-  const { isLoading, delay, isPaused, prevIndex, nextIndex } = props
+type Props = {
+  isLoading: boolean,
+  delay: number,
+  prevIndex: number,
+  nextIndex: number,
+}
+export function Wheel(props: Props) {
+  const { isLoading, delay, prevIndex, nextIndex } = props
 
   let toPos = nextIndex !== -1 ? getPosition(nextIndex) : 360
   if (prevIndex === nextIndex) {
@@ -48,10 +53,10 @@ export function Wheel(props) {
   for (let i = 0; i < WHEELFACES_PER_ROW; i++) {
     wheelFaces.push(
       <WheelFace
+        key={`${i}-${delay}`}
         rotateX={WHEEL_ANGLE * i}
         radius={WHEEL_RADIUS}
         color={COLORS_BY_INDEX[i].value}
-        text={i}
       />
     )
   }
@@ -60,14 +65,8 @@ export function Wheel(props) {
     <AnimatedWheel
       isLoading={isLoading}
       delay={delay}
-      isPaused={isPaused}
       animation={animation}>
       {wheelFaces}
     </AnimatedWheel>
   )
-
-  //     <WheelFace color="red"/>
-  //     <WheelFace color="blue"/>
-  //     <WheelFace color="green"/>
-  //     <WheelFace color="yellow"/>
 }

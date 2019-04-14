@@ -1,11 +1,11 @@
+// @flow
 import { all } from 'redux-saga/effects'
 
-import { watchSpinRequest, watchSpinSuccess } from './fruitMachine'
+import { watchSpin } from './fruitMachine'
 
-function* rootSaga() {
+function* rootSaga(): any {
   yield all([
-    watchSpinRequest(),
-    watchSpinSuccess(),
+    watchSpin(),
     // more sagas here
   ])
 }

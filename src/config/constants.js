@@ -1,3 +1,4 @@
+// @flow
 export const WHEELFACES_PER_ROW = 12
 export const WHEEL_RADIUS = 200
 export const WHEEL_ANGLE = 360 / WHEELFACES_PER_ROW
