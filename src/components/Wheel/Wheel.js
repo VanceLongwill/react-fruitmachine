@@ -12,7 +12,7 @@ function getPosition(index) {
 const AnimatedWheel = styled.div`
   height: 120px;
   transform-style: preserve-3d;
-  animation-iteration-count: 1;
+  animation-iteration-count: 1; 
   animation-timing-function: linear;
   animation-duration: ${ANIMATION_DURATION}s;
   animation-fill-mode: forwards;
@@ -24,7 +24,7 @@ export function Wheel(props) {
   const { isLoading, delay, isPaused, prevIndex, nextIndex } = props;
 
   let toPos = nextIndex !== -1 ? getPosition(nextIndex) : 360
-  if (prevIndex === nextIndex) { // make the wheel spin even if it will land at the same place
+  if (prevIndex === nextIndex) { // make the wheel spin even if it will land at the same place twice
     toPos += 360
   }
 
@@ -48,7 +48,7 @@ export function Wheel(props) {
     )
   }
 
-  return <AnimatedWheel delay={delay} isPaused={isPaused} animation={animation}>{wheelFaces}</AnimatedWheel>
+  return <AnimatedWheel isLoading={isLoading} delay={delay} isPaused={isPaused} animation={animation}>{wheelFaces}</AnimatedWheel>
 
   //     <WheelFace color="red"/>
   //     <WheelFace color="blue"/>

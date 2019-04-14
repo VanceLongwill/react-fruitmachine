@@ -2,9 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const ResultsContainer = styled.div`
-  position: absolute;
   height: 100px;
-  bottom: 10px;
   display: flex;
   flex-direction: column;
 `

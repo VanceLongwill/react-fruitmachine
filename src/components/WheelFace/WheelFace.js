@@ -7,7 +7,7 @@ const Facet = styled.div`
   width: 100px;
   color: rgba(0,0,0,0.9);
   border-radius: 5px;
-  border: 10px solid black;
+  border: 10px solid rgb(191, 191, 191);
   opacity: 0.9;
   background-color: ${p => p.color};
   transform: rotateX(${p => p.rotateX}deg)
